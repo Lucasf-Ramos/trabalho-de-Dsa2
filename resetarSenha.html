@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
+    <title>resetar a senha</title>
     <style type="text/css">
           body{margin:0; padding: 0; border: 0; margin-top: -2%;}
         header{background-color: rgb(255, 255, 255); height: 80px;
@@ -40,7 +40,7 @@ border-top-left-radius: 0;}
      
             display: flex;
             
-            gap: 10px;
+            gap: 2%;
             flex-wrap: wrap;
        }
        .button{background-color: rgb(0, 140, 255);
@@ -75,43 +75,21 @@ border-style: none;
 border-radius: 80px;
 border-top-left-radius: 0;
     }
-    #buttonBox{
-      
-        margin-left: 37%;
-        margin-bottom: 1%;
-        display: flex;
-        gap: 20px;
-
-    }
-    .minButton{
-        color:aliceblue;
-        background-color: rgb(159, 168, 177);
-        padding: 1%;
-        border-radius: 80px;
-    }
-    .minButton:hover{
-        background-color: rgb(135, 168, 201);
-        padding: 1.4%;
-    }
+    h3{margin-left: 40%;}
     </style>
 </head>
 <body>
     <header>
-        <h1>Login</h1>
+        <h1>resetar a senha</h1>
     </header>
     <br/><br/><br/><br/><br/><br/>
     <div id="infCntent">
-        <form action="painel.html" method="post">
-            <input type="email" required value="" placeholder="xxx@gmail.com" class="txtBar"><br/><br/>
-            <input type="password" required value="" placeholder="***********" class="txtBar"><br/><br/>
-            <br>
-            <div id="buttonBox">
-                <a class="minButton" href="faleConosco.html">Fale conosco</a>
-                <a class="minButton" href="esqueciSenha.html">esqueci minha senha</a>
-                <a class="minButton" href="cadastrar.html">Cadastrar</a>
-            </div>
+        <form action="logon.html" method="post">
+            <h3>Enviamos um codigo para seu email</h3>
+        
+            <input type="number" required value="" placeholder="digite o codigo aqui" class="txtBar"><br/><br/>
             <input type="submit" class="button" ><br/><br/>
-            <a href="home.html" class="button">Voltar</a>
+            <a href="esqueciSenha.html" class="button">Voltar</a>
         </form>
     </div>
    
